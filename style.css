@@ -11,6 +11,7 @@
   --fw-semi-bold: 600;
   --fw-bold: 700;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -21,20 +22,102 @@
 body {
   background: var(--clr-black);
   color: var(--clr-white);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 body p{
   font-size: 14px;
 }
 
+main {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;  
+}
 
+.card {
+  background-color: var(--clr-dark-grey);
+  width: 400px;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 40px 40px 20px 40px;
+  text-align: center;
+}
 
+.card-img-wrapper img{ 
+  border-radius: 50%;
+  width: 30%;
+}
+
+.user-info {
+  margin-block: 25px;
+  font-size: 0.8em;
+}
+
+.user-info h1 {
+  font-weight: var(--fw-semi-bold);
+}
+
+.user-info h3 {
+  color: var(--clr-green);
+  font-weight: var(--fw-semi-bold);
+  margin-block: 10px;
+}
+
+.user-info p {
+  margin-top: 20px;
+}
+
+.user-link { 
+  width: 100%;
+  background-color: var(--clr-grey);
+  border-radius: 8px;
+  padding-block: 10px;
+  margin-block:12px;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+.user-link:hover {
+  background-color: var(--clr-green);
+}
+
+.user-link:hover a {
+  color: var(--clr-black);
+}
+
+.user-link button {
+  background-color: transparent;
+  border: none;  
+}
+
+.user-link a{
+  text-decoration: none;  
+  color: var(--clr-white);
+  font-weight: var(--fw-bold);
+}
+
+footer {
+  margin-top: 20px;
+}
 
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  letter-spacing: 0.3px;
 }
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+  transition: 250ms;
 }
+
+.attribution a:hover {
+  color: var(--clr-green);
+}
+
