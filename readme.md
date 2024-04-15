@@ -16,10 +16,10 @@ Thank you for stopping by. This is a solution for [Frontend Mentor Social Links 
 
 ### Screenshot
 
-![Page Preview]()
+![Page Preview](./assets/images/screenshot.png)
 
 ### Links
-You can check my solution in [Frontend Mentor website](). Advices are very welcome!
+You can check my solution in [Frontend Mentor website](https://www.frontendmentor.io/solutions/sociallinksprofilemain-K1eDGD7SsC). Advices are very welcome!
 
 ## My process
 
